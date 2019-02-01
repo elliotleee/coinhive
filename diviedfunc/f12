@@ -1,0 +1,885 @@
+i0 = p0;
+  i0 = !(i0);
+  if (i0) {
+    goto Bfunc;
+  }
+  i0 = 9752u;
+  i0 = i32_load(Z_envZ_memory, (u64)(i0));
+  l1 = i0;
+  i0 = p0;
+  i1 = 4294967288u;
+  i0 += i1;
+  l3 = i0;
+  i1 = p0;
+  i2 = 4294967292u;
+  i1 += i2;
+  i1 = i32_load(Z_envZ_memory, (u64)(i1));
+  p0 = i1;
+  i2 = 4294967288u;
+  i1 &= i2;
+  l0 = i1;
+  i0 += i1;
+  l5 = i0;
+  i0 = p0;
+  i1 = 1u;
+  i0 &= i1;
+  if (i0) {
+    i0 = l3;
+    p0 = i0;
+  } else {
+    i0 = l3;
+    i0 = i32_load(Z_envZ_memory, (u64)(i0));
+    l2 = i0;
+    i0 = p0;
+    i1 = 3u;
+    i0 &= i1;
+    i0 = !(i0);
+    if (i0) {
+      goto Bfunc;
+    }
+    i0 = l3;
+    i1 = l2;
+    i0 -= i1;
+    p0 = i0;
+    i1 = l1;
+    i0 = i0 < i1;
+    if (i0) {
+      goto Bfunc;
+    }
+    i0 = l2;
+    i1 = l0;
+    i0 += i1;
+    l0 = i0;
+    i0 = 9756u;
+    i0 = i32_load(Z_envZ_memory, (u64)(i0));
+    i1 = p0;
+    i0 = i0 == i1;
+    if (i0) {
+      i0 = p0;
+      i1 = l5;
+      i2 = 4u;
+      i1 += i2;
+      l1 = i1;
+      i1 = i32_load(Z_envZ_memory, (u64)(i1));
+      l3 = i1;
+      i2 = 3u;
+      i1 &= i2;
+      i2 = 3u;
+      i1 = i1 != i2;
+      if (i1) {goto B1;}
+      i0 = 9744u;
+      i1 = l0;
+      i32_store(Z_envZ_memory, (u64)(i0), i1);
+      i0 = l1;
+      i1 = l3;
+      i2 = 4294967294u;
+      i1 &= i2;
+      i32_store(Z_envZ_memory, (u64)(i0), i1);
+      i0 = p0;
+      i1 = l0;
+      i2 = 1u;
+      i1 |= i2;
+      i32_store(Z_envZ_memory, (u64)(i0 + 4), i1);
+      i0 = p0;
+      i1 = l0;
+      i0 += i1;
+      i1 = l0;
+      i32_store(Z_envZ_memory, (u64)(i0), i1);
+      goto Bfunc;
+    }
+    i0 = l2;
+    i1 = 3u;
+    i0 >>= (i1 & 31);
+    l3 = i0;
+    i0 = l2;
+    i1 = 256u;
+    i0 = i0 < i1;
+    if (i0) {
+      i0 = p0;
+      i0 = i32_load(Z_envZ_memory, (u64)(i0 + 12));
+      l2 = i0;
+      i1 = p0;
+      i1 = i32_load(Z_envZ_memory, (u64)(i1 + 8));
+      l1 = i1;
+      i0 = i0 == i1;
+      if (i0) {
+        i0 = 9736u;
+        i1 = 9736u;
+        i1 = i32_load(Z_envZ_memory, (u64)(i1));
+        i2 = 1u;
+        i3 = l3;
+        i2 <<= (i3 & 31);
+        i3 = 4294967295u;
+        i2 ^= i3;
+        i1 &= i2;
+        i32_store(Z_envZ_memory, (u64)(i0), i1);
+        i0 = p0;
+        goto B1;
+      } else {
+        i0 = l1;
+        i1 = l2;
+        i32_store(Z_envZ_memory, (u64)(i0 + 12), i1);
+        i0 = l2;
+        i1 = l1;
+        i32_store(Z_envZ_memory, (u64)(i0 + 8), i1);
+        i0 = p0;
+        goto B1;
+      }
+      UNREACHABLE;
+    }
+    i0 = p0;
+    i0 = i32_load(Z_envZ_memory, (u64)(i0 + 24));
+    l6 = i0;
+    i0 = p0;
+    i0 = i32_load(Z_envZ_memory, (u64)(i0 + 12));
+    l3 = i0;
+    i1 = p0;
+    i0 = i0 == i1;
+    if (i0) {
+      i0 = p0;
+      i1 = 16u;
+      i0 += i1;
+      l2 = i0;
+      i1 = 4u;
+      i0 += i1;
+      l1 = i0;
+      i0 = i32_load(Z_envZ_memory, (u64)(i0));
+      l3 = i0;
+      i0 = !(i0);
+      if (i0) {
+        i0 = l2;
+        i0 = i32_load(Z_envZ_memory, (u64)(i0));
+        l3 = i0;
+        if (i0) {
+          i0 = l2;
+          l1 = i0;
+        } else {
+          i0 = 0u;
+          l3 = i0;
+          goto B8;
+        }
+      }
+      L12: 
+        i0 = l3;
+        i1 = 20u;
+        i0 += i1;
+        l4 = i0;
+        i0 = i32_load(Z_envZ_memory, (u64)(i0));
+        l2 = i0;
+        if (i0) {
+          i0 = l2;
+          l3 = i0;
+          i0 = l4;
+          l1 = i0;
+          goto L12;
+        }
+        i0 = l3;
+        i1 = 16u;
+        i0 += i1;
+        l4 = i0;
+        i0 = i32_load(Z_envZ_memory, (u64)(i0));
+        l2 = i0;
+        if (i0) {
+          i0 = l2;
+          l3 = i0;
+          i0 = l4;
+          l1 = i0;
+          goto L12;
+        }
+      i0 = l1;
+      i1 = 0u;
+      i32_store(Z_envZ_memory, (u64)(i0), i1);
+    } else {
+      i0 = p0;
+      i0 = i32_load(Z_envZ_memory, (u64)(i0 + 8));
+      l1 = i0;
+      i1 = l3;
+      i32_store(Z_envZ_memory, (u64)(i0 + 12), i1);
+      i0 = l3;
+      i1 = l1;
+      i32_store(Z_envZ_memory, (u64)(i0 + 8), i1);
+    }
+    B8:;
+    i0 = l6;
+    if (i0) {
+      i0 = p0;
+      i0 = i32_load(Z_envZ_memory, (u64)(i0 + 28));
+      l2 = i0;
+      i1 = 2u;
+      i0 <<= (i1 & 31);
+      i1 = 10040u;
+      i0 += i1;
+      l1 = i0;
+      i0 = i32_load(Z_envZ_memory, (u64)(i0));
+      i1 = p0;
+      i0 = i0 == i1;
+      if (i0) {
+        i0 = l1;
+        i1 = l3;
+        i32_store(Z_envZ_memory, (u64)(i0), i1);
+        i0 = l3;
+        i0 = !(i0);
+        if (i0) {
+          i0 = 9740u;
+          i1 = 9740u;
+          i1 = i32_load(Z_envZ_memory, (u64)(i1));
+          i2 = 1u;
+          i3 = l2;
+          i2 <<= (i3 & 31);
+          i3 = 4294967295u;
+          i2 ^= i3;
+          i1 &= i2;
+          i32_store(Z_envZ_memory, (u64)(i0), i1);
+          i0 = p0;
+          goto B1;
+        }
+      } else {
+        i0 = l6;
+        i1 = 16u;
+        i0 += i1;
+        i1 = l6;
+        i1 = i32_load(Z_envZ_memory, (u64)(i1 + 16));
+        i2 = p0;
+        i1 = i1 != i2;
+        i2 = 2u;
+        i1 <<= (i2 & 31);
+        i0 += i1;
+        i1 = l3;
+        i32_store(Z_envZ_memory, (u64)(i0), i1);
+        i0 = p0;
+        i1 = l3;
+        i1 = !(i1);
+        if (i1) {goto B1;}
+      }
+      i0 = l3;
+      i1 = l6;
+      i32_store(Z_envZ_memory, (u64)(i0 + 24), i1);
+      i0 = p0;
+      i1 = 16u;
+      i0 += i1;
+      l1 = i0;
+      i0 = i32_load(Z_envZ_memory, (u64)(i0));
+      l2 = i0;
+      if (i0) {
+        i0 = l3;
+        i1 = l2;
+        i32_store(Z_envZ_memory, (u64)(i0 + 16), i1);
+        i0 = l2;
+        i1 = l3;
+        i32_store(Z_envZ_memory, (u64)(i0 + 24), i1);
+      }
+      i0 = l1;
+      i0 = i32_load(Z_envZ_memory, (u64)(i0 + 4));
+      l1 = i0;
+      if (i0) {
+        i0 = l3;
+        i1 = l1;
+        i32_store(Z_envZ_memory, (u64)(i0 + 20), i1);
+        i0 = l1;
+        i1 = l3;
+        i32_store(Z_envZ_memory, (u64)(i0 + 24), i1);
+        i0 = p0;
+      } else {
+        i0 = p0;
+      }
+    } else {
+      i0 = p0;
+    }
+  }
+  B1:;
+  l3 = i0;
+  i1 = l5;
+  i0 = i0 >= i1;
+  if (i0) {
+    goto Bfunc;
+  }
+  i0 = l5;
+  i1 = 4u;
+  i0 += i1;
+  l1 = i0;
+  i0 = i32_load(Z_envZ_memory, (u64)(i0));
+  l2 = i0;
+  i1 = 1u;
+  i0 &= i1;
+  i0 = !(i0);
+  if (i0) {
+    goto Bfunc;
+  }
+  i0 = l2;
+  i1 = 2u;
+  i0 &= i1;
+  if (i0) {
+    i0 = l1;
+    i1 = l2;
+    i2 = 4294967294u;
+    i1 &= i2;
+    i32_store(Z_envZ_memory, (u64)(i0), i1);
+    i0 = p0;
+    i1 = l0;
+    i2 = 1u;
+    i1 |= i2;
+    i32_store(Z_envZ_memory, (u64)(i0 + 4), i1);
+    i0 = l3;
+    i1 = l0;
+    i0 += i1;
+    i1 = l0;
+    i32_store(Z_envZ_memory, (u64)(i0), i1);
+    i0 = l0;
+    l3 = i0;
+  } else {
+    i0 = 9760u;
+    i0 = i32_load(Z_envZ_memory, (u64)(i0));
+    i1 = l5;
+    i0 = i0 == i1;
+    if (i0) {
+      i0 = 9748u;
+      i1 = 9748u;
+      i1 = i32_load(Z_envZ_memory, (u64)(i1));
+      i2 = l0;
+      i1 += i2;
+      l0 = i1;
+      i32_store(Z_envZ_memory, (u64)(i0), i1);
+      i0 = 9760u;
+      i1 = p0;
+      i32_store(Z_envZ_memory, (u64)(i0), i1);
+      i0 = p0;
+      i1 = l0;
+      i2 = 1u;
+      i1 |= i2;
+      i32_store(Z_envZ_memory, (u64)(i0 + 4), i1);
+      i0 = p0;
+      i1 = 9756u;
+      i1 = i32_load(Z_envZ_memory, (u64)(i1));
+      i0 = i0 != i1;
+      if (i0) {
+        goto Bfunc;
+      }
+      i0 = 9756u;
+      i1 = 0u;
+      i32_store(Z_envZ_memory, (u64)(i0), i1);
+      i0 = 9744u;
+      i1 = 0u;
+      i32_store(Z_envZ_memory, (u64)(i0), i1);
+      goto Bfunc;
+    }
+    i0 = 9756u;
+    i0 = i32_load(Z_envZ_memory, (u64)(i0));
+    i1 = l5;
+    i0 = i0 == i1;
+    if (i0) {
+      i0 = 9744u;
+      i1 = 9744u;
+      i1 = i32_load(Z_envZ_memory, (u64)(i1));
+      i2 = l0;
+      i1 += i2;
+      l0 = i1;
+      i32_store(Z_envZ_memory, (u64)(i0), i1);
+      i0 = 9756u;
+      i1 = l3;
+      i32_store(Z_envZ_memory, (u64)(i0), i1);
+      i0 = p0;
+      i1 = l0;
+      i2 = 1u;
+      i1 |= i2;
+      i32_store(Z_envZ_memory, (u64)(i0 + 4), i1);
+      i0 = l3;
+      i1 = l0;
+      i0 += i1;
+      i1 = l0;
+      i32_store(Z_envZ_memory, (u64)(i0), i1);
+      goto Bfunc;
+    }
+    i0 = l2;
+    i1 = 4294967288u;
+    i0 &= i1;
+    i1 = l0;
+    i0 += i1;
+    l6 = i0;
+    i0 = l2;
+    i1 = 3u;
+    i0 >>= (i1 & 31);
+    l0 = i0;
+    i0 = l2;
+    i1 = 256u;
+    i0 = i0 < i1;
+    if (i0) {
+      i0 = l5;
+      i0 = i32_load(Z_envZ_memory, (u64)(i0 + 12));
+      l2 = i0;
+      i1 = l5;
+      i1 = i32_load(Z_envZ_memory, (u64)(i1 + 8));
+      l1 = i1;
+      i0 = i0 == i1;
+      if (i0) {
+        i0 = 9736u;
+        i1 = 9736u;
+        i1 = i32_load(Z_envZ_memory, (u64)(i1));
+        i2 = 1u;
+        i3 = l0;
+        i2 <<= (i3 & 31);
+        i3 = 4294967295u;
+        i2 ^= i3;
+        i1 &= i2;
+        i32_store(Z_envZ_memory, (u64)(i0), i1);
+      } else {
+        i0 = l1;
+        i1 = l2;
+        i32_store(Z_envZ_memory, (u64)(i0 + 12), i1);
+        i0 = l2;
+        i1 = l1;
+        i32_store(Z_envZ_memory, (u64)(i0 + 8), i1);
+      }
+    } else {
+      i0 = l5;
+      i0 = i32_load(Z_envZ_memory, (u64)(i0 + 24));
+      l7 = i0;
+      i0 = l5;
+      i0 = i32_load(Z_envZ_memory, (u64)(i0 + 12));
+      l0 = i0;
+      i1 = l5;
+      i0 = i0 == i1;
+      if (i0) {
+        i0 = l5;
+        i1 = 16u;
+        i0 += i1;
+        l2 = i0;
+        i1 = 4u;
+        i0 += i1;
+        l1 = i0;
+        i0 = i32_load(Z_envZ_memory, (u64)(i0));
+        l0 = i0;
+        i0 = !(i0);
+        if (i0) {
+          i0 = l2;
+          i0 = i32_load(Z_envZ_memory, (u64)(i0));
+          l0 = i0;
+          if (i0) {
+            i0 = l2;
+            l1 = i0;
+          } else {
+            i0 = 0u;
+            l0 = i0;
+            goto B29;
+          }
+        }
+        L33: 
+          i0 = l0;
+          i1 = 20u;
+          i0 += i1;
+          l4 = i0;
+          i0 = i32_load(Z_envZ_memory, (u64)(i0));
+          l2 = i0;
+          if (i0) {
+            i0 = l2;
+            l0 = i0;
+            i0 = l4;
+            l1 = i0;
+            goto L33;
+          }
+          i0 = l0;
+          i1 = 16u;
+          i0 += i1;
+          l4 = i0;
+          i0 = i32_load(Z_envZ_memory, (u64)(i0));
+          l2 = i0;
+          if (i0) {
+            i0 = l2;
+            l0 = i0;
+            i0 = l4;
+            l1 = i0;
+            goto L33;
+          }
+        i0 = l1;
+        i1 = 0u;
+        i32_store(Z_envZ_memory, (u64)(i0), i1);
+      } else {
+        i0 = l5;
+        i0 = i32_load(Z_envZ_memory, (u64)(i0 + 8));
+        l1 = i0;
+        i1 = l0;
+        i32_store(Z_envZ_memory, (u64)(i0 + 12), i1);
+        i0 = l0;
+        i1 = l1;
+        i32_store(Z_envZ_memory, (u64)(i0 + 8), i1);
+      }
+      B29:;
+      i0 = l7;
+      if (i0) {
+        i0 = l5;
+        i0 = i32_load(Z_envZ_memory, (u64)(i0 + 28));
+        l2 = i0;
+        i1 = 2u;
+        i0 <<= (i1 & 31);
+        i1 = 10040u;
+        i0 += i1;
+        l1 = i0;
+        i0 = i32_load(Z_envZ_memory, (u64)(i0));
+        i1 = l5;
+        i0 = i0 == i1;
+        if (i0) {
+          i0 = l1;
+          i1 = l0;
+          i32_store(Z_envZ_memory, (u64)(i0), i1);
+          i0 = l0;
+          i0 = !(i0);
+          if (i0) {
+            i0 = 9740u;
+            i1 = 9740u;
+            i1 = i32_load(Z_envZ_memory, (u64)(i1));
+            i2 = 1u;
+            i3 = l2;
+            i2 <<= (i3 & 31);
+            i3 = 4294967295u;
+            i2 ^= i3;
+            i1 &= i2;
+            i32_store(Z_envZ_memory, (u64)(i0), i1);
+            goto B26;
+          }
+        } else {
+          i0 = l7;
+          i1 = 16u;
+          i0 += i1;
+          i1 = l7;
+          i1 = i32_load(Z_envZ_memory, (u64)(i1 + 16));
+          i2 = l5;
+          i1 = i1 != i2;
+          i2 = 2u;
+          i1 <<= (i2 & 31);
+          i0 += i1;
+          i1 = l0;
+          i32_store(Z_envZ_memory, (u64)(i0), i1);
+          i0 = l0;
+          i0 = !(i0);
+          if (i0) {goto B26;}
+        }
+        i0 = l0;
+        i1 = l7;
+        i32_store(Z_envZ_memory, (u64)(i0 + 24), i1);
+        i0 = l5;
+        i1 = 16u;
+        i0 += i1;
+        l1 = i0;
+        i0 = i32_load(Z_envZ_memory, (u64)(i0));
+        l2 = i0;
+        if (i0) {
+          i0 = l0;
+          i1 = l2;
+          i32_store(Z_envZ_memory, (u64)(i0 + 16), i1);
+          i0 = l2;
+          i1 = l0;
+          i32_store(Z_envZ_memory, (u64)(i0 + 24), i1);
+        }
+        i0 = l1;
+        i0 = i32_load(Z_envZ_memory, (u64)(i0 + 4));
+        l1 = i0;
+        if (i0) {
+          i0 = l0;
+          i1 = l1;
+          i32_store(Z_envZ_memory, (u64)(i0 + 20), i1);
+          i0 = l1;
+          i1 = l0;
+          i32_store(Z_envZ_memory, (u64)(i0 + 24), i1);
+        }
+      }
+    }
+    B26:;
+    i0 = p0;
+    i1 = l6;
+    i2 = 1u;
+    i1 |= i2;
+    i32_store(Z_envZ_memory, (u64)(i0 + 4), i1);
+    i0 = l3;
+    i1 = l6;
+    i0 += i1;
+    i1 = l6;
+    i32_store(Z_envZ_memory, (u64)(i0), i1);
+    i0 = p0;
+    i1 = 9756u;
+    i1 = i32_load(Z_envZ_memory, (u64)(i1));
+    i0 = i0 == i1;
+    if (i0) {
+      i0 = 9744u;
+      i1 = l6;
+      i32_store(Z_envZ_memory, (u64)(i0), i1);
+      goto Bfunc;
+    } else {
+      i0 = l6;
+      l3 = i0;
+    }
+  }
+  i0 = l3;
+  i1 = 3u;
+  i0 >>= (i1 & 31);
+  l0 = i0;
+  i0 = l3;
+  i1 = 256u;
+  i0 = i0 < i1;
+  if (i0) {
+    i0 = l0;
+    i1 = 3u;
+    i0 <<= (i1 & 31);
+    i1 = 9776u;
+    i0 += i1;
+    l1 = i0;
+    i0 = 9736u;
+    i0 = i32_load(Z_envZ_memory, (u64)(i0));
+    l3 = i0;
+    i1 = 1u;
+    i2 = l0;
+    i1 <<= (i2 & 31);
+    l0 = i1;
+    i0 &= i1;
+    if (i0) {
+      i0 = l1;
+      i1 = 8u;
+      i0 += i1;
+      l0 = i0;
+      i0 = i32_load(Z_envZ_memory, (u64)(i0));
+    } else {
+      i0 = 9736u;
+      i1 = l3;
+      i2 = l0;
+      i1 |= i2;
+      i32_store(Z_envZ_memory, (u64)(i0), i1);
+      i0 = l1;
+      i1 = 8u;
+      i0 += i1;
+      l0 = i0;
+      i0 = l1;
+    }
+    l3 = i0;
+    i0 = l0;
+    i1 = p0;
+    i32_store(Z_envZ_memory, (u64)(i0), i1);
+    i0 = l3;
+    i1 = p0;
+    i32_store(Z_envZ_memory, (u64)(i0 + 12), i1);
+    i0 = p0;
+    i1 = l3;
+    i32_store(Z_envZ_memory, (u64)(i0 + 8), i1);
+    i0 = p0;
+    i1 = l1;
+    i32_store(Z_envZ_memory, (u64)(i0 + 12), i1);
+    goto Bfunc;
+  }
+  i0 = l3;
+  i1 = 8u;
+  i0 >>= (i1 & 31);
+  l0 = i0;
+  if (i0) {
+    i0 = l3;
+    i1 = 16777215u;
+    i0 = i0 > i1;
+    if (i0) {
+      i0 = 31u;
+    } else {
+      i0 = l3;
+      i1 = 14u;
+      i2 = l0;
+      i3 = l0;
+      i4 = 1048320u;
+      i3 += i4;
+      i4 = 16u;
+      i3 >>= (i4 & 31);
+      i4 = 8u;
+      i3 &= i4;
+      l2 = i3;
+      i2 <<= (i3 & 31);
+      l1 = i2;
+      i3 = 520192u;
+      i2 += i3;
+      i3 = 16u;
+      i2 >>= (i3 & 31);
+      i3 = 4u;
+      i2 &= i3;
+      l0 = i2;
+      i3 = l2;
+      i2 |= i3;
+      i3 = l1;
+      i4 = l0;
+      i3 <<= (i4 & 31);
+      l1 = i3;
+      i4 = 245760u;
+      i3 += i4;
+      i4 = 16u;
+      i3 >>= (i4 & 31);
+      i4 = 2u;
+      i3 &= i4;
+      l0 = i3;
+      i2 |= i3;
+      i1 -= i2;
+      i2 = l1;
+      i3 = l0;
+      i2 <<= (i3 & 31);
+      i3 = 15u;
+      i2 >>= (i3 & 31);
+      i1 += i2;
+      l0 = i1;
+      i2 = 7u;
+      i1 += i2;
+      i0 >>= (i1 & 31);
+      i1 = 1u;
+      i0 &= i1;
+      i1 = l0;
+      i2 = 1u;
+      i1 <<= (i2 & 31);
+      i0 |= i1;
+    }
+  } else {
+    i0 = 0u;
+  }
+  l4 = i0;
+  i1 = 2u;
+  i0 <<= (i1 & 31);
+  i1 = 10040u;
+  i0 += i1;
+  l2 = i0;
+  i0 = p0;
+  i1 = l4;
+  i32_store(Z_envZ_memory, (u64)(i0 + 28), i1);
+  i0 = p0;
+  i1 = 0u;
+  i32_store(Z_envZ_memory, (u64)(i0 + 20), i1);
+  i0 = p0;
+  i1 = 0u;
+  i32_store(Z_envZ_memory, (u64)(i0 + 16), i1);
+  i0 = 9740u;
+  i0 = i32_load(Z_envZ_memory, (u64)(i0));
+  l1 = i0;
+  i1 = 1u;
+  i2 = l4;
+  i1 <<= (i2 & 31);
+  l0 = i1;
+  i0 &= i1;
+  if (i0) {
+    i0 = l2;
+    i0 = i32_load(Z_envZ_memory, (u64)(i0));
+    l0 = i0;
+    i0 = 25u;
+    i1 = l4;
+    i2 = 1u;
+    i1 >>= (i2 & 31);
+    i0 -= i1;
+    l1 = i0;
+    i0 = l3;
+    i1 = l4;
+    i2 = 31u;
+    i1 = i1 == i2;
+    if (i1) {
+      i1 = 0u;
+    } else {
+      i1 = l1;
+    }
+    i0 <<= (i1 & 31);
+    l4 = i0;
+    L50: 
+      i0 = l0;
+      i0 = i32_load(Z_envZ_memory, (u64)(i0 + 4));
+      i1 = 4294967288u;
+      i0 &= i1;
+      i1 = l3;
+      i0 = i0 == i1;
+      if (i0) {goto B49;}
+      i0 = l4;
+      i1 = 1u;
+      i0 <<= (i1 & 31);
+      l2 = i0;
+      i0 = l0;
+      i1 = 16u;
+      i0 += i1;
+      i1 = l4;
+      i2 = 31u;
+      i1 >>= (i2 & 31);
+      i2 = 2u;
+      i1 <<= (i2 & 31);
+      i0 += i1;
+      l4 = i0;
+      i0 = i32_load(Z_envZ_memory, (u64)(i0));
+      l1 = i0;
+      if (i0) {
+        i0 = l2;
+        l4 = i0;
+        i0 = l1;
+        l0 = i0;
+        goto L50;
+      }
+    i0 = l4;
+    i1 = p0;
+    i32_store(Z_envZ_memory, (u64)(i0), i1);
+    i0 = p0;
+    i1 = l0;
+    i32_store(Z_envZ_memory, (u64)(i0 + 24), i1);
+    i0 = p0;
+    i1 = p0;
+    i32_store(Z_envZ_memory, (u64)(i0 + 12), i1);
+    i0 = p0;
+    i1 = p0;
+    i32_store(Z_envZ_memory, (u64)(i0 + 8), i1);
+    goto B46;
+    B49:;
+    i0 = l0;
+    i1 = 8u;
+    i0 += i1;
+    l1 = i0;
+    i0 = i32_load(Z_envZ_memory, (u64)(i0));
+    l3 = i0;
+    i1 = p0;
+    i32_store(Z_envZ_memory, (u64)(i0 + 12), i1);
+    i0 = l1;
+    i1 = p0;
+    i32_store(Z_envZ_memory, (u64)(i0), i1);
+    i0 = p0;
+    i1 = l3;
+    i32_store(Z_envZ_memory, (u64)(i0 + 8), i1);
+    i0 = p0;
+    i1 = l0;
+    i32_store(Z_envZ_memory, (u64)(i0 + 12), i1);
+    i0 = p0;
+    i1 = 0u;
+    i32_store(Z_envZ_memory, (u64)(i0 + 24), i1);
+  } else {
+    i0 = 9740u;
+    i1 = l1;
+    i2 = l0;
+    i1 |= i2;
+    i32_store(Z_envZ_memory, (u64)(i0), i1);
+    i0 = l2;
+    i1 = p0;
+    i32_store(Z_envZ_memory, (u64)(i0), i1);
+    i0 = p0;
+    i1 = l2;
+    i32_store(Z_envZ_memory, (u64)(i0 + 24), i1);
+    i0 = p0;
+    i1 = p0;
+    i32_store(Z_envZ_memory, (u64)(i0 + 12), i1);
+    i0 = p0;
+    i1 = p0;
+    i32_store(Z_envZ_memory, (u64)(i0 + 8), i1);
+  }
+  B46:;
+  i0 = 9768u;
+  i1 = 9768u;
+  i1 = i32_load(Z_envZ_memory, (u64)(i1));
+  i2 = 4294967295u;
+  i1 += i2;
+  p0 = i1;
+  i32_store(Z_envZ_memory, (u64)(i0), i1);
+  i0 = p0;
+  if (i0) {
+    goto Bfunc;
+  } else {
+    i0 = 10192u;
+    p0 = i0;
+  }
+  L53: 
+    i0 = p0;
+    i0 = i32_load(Z_envZ_memory, (u64)(i0));
+    l0 = i0;
+    i1 = 8u;
+    i0 += i1;
+    p0 = i0;
+    i0 = l0;
+    if (i0) {goto L53;}
+  i0 = 9768u;
+  i1 = 4294967295u;
+  i32_store(Z_envZ_memory, (u64)(i0), i1);

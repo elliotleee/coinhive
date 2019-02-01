@@ -1,0 +1,60 @@
+func $_cryptonight_destroy (param i32)
+(local i32 i32 i32 i32)
+  get_local 0
+  i32.const 2097536
+  i32.add
+  tee_local 4
+  i32.load offset=0 align=4
+  tee_local 1
+  i32.eqz
+  if
+    get_local 0
+    call 12
+    return
+  end
+  get_local 1
+  i32.load offset=0 align=4
+  tee_local 2
+  if
+    get_local 2
+    i32.load offset=4 align=4
+    tee_local 3
+    if
+      get_local 3
+      call 12
+      get_local 1
+      i32.load offset=0 align=4
+      i32.const 0
+      i32.store offset=4 align=4
+      get_local 1
+      i32.load offset=0 align=4
+      set_local 2
+    end
+    get_local 2
+    i32.load offset=12 align=4
+    tee_local 3
+    if
+      get_local 3
+      call 12
+      get_local 1
+      i32.load offset=0 align=4
+      i32.const 0
+      i32.store offset=12 align=4
+      get_local 1
+      i32.load offset=0 align=4
+      set_local 2
+    end
+    get_local 2
+    call 12
+    get_local 1
+    i32.const 0
+    i32.store offset=0 align=4
+    get_local 4
+    i32.load offset=0 align=4
+    set_local 1
+  end
+  get_local 1
+  call 12
+  get_local 0
+  call 12
+end

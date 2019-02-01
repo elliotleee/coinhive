@@ -1,0 +1,53 @@
+func $f15 (param i32) (result i32)
+(local i32 i32)
+  get_global 3
+  i32.load offset=0 align=4
+  tee_local 2
+  get_local 0
+  i32.const 15
+  i32.add
+  i32.const -16
+  i32.and
+  tee_local 0
+  i32.add
+  set_local 1
+  get_local 0
+  i32.const 0
+  i32.gt_s
+  get_local 1
+  get_local 2
+  i32.lt_s
+  i32.and
+  get_local 1
+  i32.const 0
+  i32.lt_s
+  i32.or
+  if
+    call 3
+    drop
+    i32.const 12
+    call 4
+    i32.const -1
+    return
+  end
+  get_global 3
+  get_local 1
+  i32.store offset=0 align=4
+  get_local 1
+  call 2
+  i32.gt_s
+  if
+    call 1
+    i32.eqz
+    if
+      get_global 3
+      get_local 2
+      i32.store offset=0 align=4
+      i32.const 12
+      call 4
+      i32.const -1
+      return
+    end
+  end
+  get_local 2
+end

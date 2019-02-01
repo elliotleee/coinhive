@@ -1,0 +1,218 @@
+  i0 = p2;
+  i1 = 8192u;
+  i0 = (u32)((s32)i0 >= (s32)i1);
+  if (i0) {
+    i0 = p0;
+    i1 = p1;
+    i2 = p2;
+    i0 = (*Z_envZ__emscripten_memcpy_bigZ_iiii)(i0, i1, i2);
+    goto Bfunc;
+  }
+  i0 = p0;
+  l1 = i0;
+  i0 = p0;
+  i1 = p2;
+  i0 += i1;
+  l0 = i0;
+  i0 = p0;
+  i1 = 3u;
+  i0 &= i1;
+  i1 = p1;
+  i2 = 3u;
+  i1 &= i2;
+  i0 = i0 == i1;
+  if (i0) {
+    L2: 
+      i0 = p0;
+      i1 = 3u;
+      i0 &= i1;
+      if (i0) {
+        i0 = p2;
+        i0 = !(i0);
+        if (i0) {
+          i0 = l1;
+          goto Bfunc;
+        }
+        i0 = p0;
+        i1 = p1;
+        i1 = i32_load8_s(Z_envZ_memory, (u64)(i1));
+        i32_store8(Z_envZ_memory, (u64)(i0), i1);
+        i0 = p0;
+        i1 = 1u;
+        i0 += i1;
+        p0 = i0;
+        i0 = p1;
+        i1 = 1u;
+        i0 += i1;
+        p1 = i0;
+        i0 = p2;
+        i1 = 1u;
+        i0 -= i1;
+        p2 = i0;
+        goto L2;
+      }
+    i0 = l0;
+    i1 = 4294967292u;
+    i0 &= i1;
+    p2 = i0;
+    i1 = 64u;
+    i0 -= i1;
+    l2 = i0;
+    L5: 
+      i0 = p0;
+      i1 = l2;
+      i0 = (u32)((s32)i0 <= (s32)i1);
+      if (i0) {
+        i0 = p0;
+        i1 = p1;
+        i1 = i32_load(Z_envZ_memory, (u64)(i1));
+        i32_store(Z_envZ_memory, (u64)(i0), i1);
+        i0 = p0;
+        i1 = p1;
+        i1 = i32_load(Z_envZ_memory, (u64)(i1 + 4));
+        i32_store(Z_envZ_memory, (u64)(i0 + 4), i1);
+        i0 = p0;
+        i1 = p1;
+        i1 = i32_load(Z_envZ_memory, (u64)(i1 + 8));
+        i32_store(Z_envZ_memory, (u64)(i0 + 8), i1);
+        i0 = p0;
+        i1 = p1;
+        i1 = i32_load(Z_envZ_memory, (u64)(i1 + 12));
+        i32_store(Z_envZ_memory, (u64)(i0 + 12), i1);
+        i0 = p0;
+        i1 = p1;
+        i1 = i32_load(Z_envZ_memory, (u64)(i1 + 16));
+        i32_store(Z_envZ_memory, (u64)(i0 + 16), i1);
+        i0 = p0;
+        i1 = p1;
+        i1 = i32_load(Z_envZ_memory, (u64)(i1 + 20));
+        i32_store(Z_envZ_memory, (u64)(i0 + 20), i1);
+        i0 = p0;
+        i1 = p1;
+        i1 = i32_load(Z_envZ_memory, (u64)(i1 + 24));
+        i32_store(Z_envZ_memory, (u64)(i0 + 24), i1);
+        i0 = p0;
+        i1 = p1;
+        i1 = i32_load(Z_envZ_memory, (u64)(i1 + 28));
+        i32_store(Z_envZ_memory, (u64)(i0 + 28), i1);
+        i0 = p0;
+        i1 = p1;
+        i1 = i32_load(Z_envZ_memory, (u64)(i1 + 32));
+        i32_store(Z_envZ_memory, (u64)(i0 + 32), i1);
+        i0 = p0;
+        i1 = p1;
+        i1 = i32_load(Z_envZ_memory, (u64)(i1 + 36));
+        i32_store(Z_envZ_memory, (u64)(i0 + 36), i1);
+        i0 = p0;
+        i1 = p1;
+        i1 = i32_load(Z_envZ_memory, (u64)(i1 + 40));
+        i32_store(Z_envZ_memory, (u64)(i0 + 40), i1);
+        i0 = p0;
+        i1 = p1;
+        i1 = i32_load(Z_envZ_memory, (u64)(i1 + 44));
+        i32_store(Z_envZ_memory, (u64)(i0 + 44), i1);
+        i0 = p0;
+        i1 = p1;
+        i1 = i32_load(Z_envZ_memory, (u64)(i1 + 48));
+        i32_store(Z_envZ_memory, (u64)(i0 + 48), i1);
+        i0 = p0;
+        i1 = p1;
+        i1 = i32_load(Z_envZ_memory, (u64)(i1 + 52));
+        i32_store(Z_envZ_memory, (u64)(i0 + 52), i1);
+        i0 = p0;
+        i1 = p1;
+        i1 = i32_load(Z_envZ_memory, (u64)(i1 + 56));
+        i32_store(Z_envZ_memory, (u64)(i0 + 56), i1);
+        i0 = p0;
+        i1 = p1;
+        i1 = i32_load(Z_envZ_memory, (u64)(i1 + 60));
+        i32_store(Z_envZ_memory, (u64)(i0 + 60), i1);
+        i0 = p0;
+        i1 = 64u;
+        i0 += i1;
+        p0 = i0;
+        i0 = p1;
+        i1 = 64u;
+        i0 += i1;
+        p1 = i0;
+        goto L5;
+      }
+    L7: 
+      i0 = p0;
+      i1 = p2;
+      i0 = (u32)((s32)i0 < (s32)i1);
+      if (i0) {
+        i0 = p0;
+        i1 = p1;
+        i1 = i32_load(Z_envZ_memory, (u64)(i1));
+        i32_store(Z_envZ_memory, (u64)(i0), i1);
+        i0 = p0;
+        i1 = 4u;
+        i0 += i1;
+        p0 = i0;
+        i0 = p1;
+        i1 = 4u;
+        i0 += i1;
+        p1 = i0;
+        goto L7;
+      }
+  } else {
+    i0 = l0;
+    i1 = 4u;
+    i0 -= i1;
+    p2 = i0;
+    L9: 
+      i0 = p0;
+      i1 = p2;
+      i0 = (u32)((s32)i0 < (s32)i1);
+      if (i0) {
+        i0 = p0;
+        i1 = p1;
+        i1 = i32_load8_s(Z_envZ_memory, (u64)(i1));
+        i32_store8(Z_envZ_memory, (u64)(i0), i1);
+        i0 = p0;
+        i1 = p1;
+        i1 = i32_load8_s(Z_envZ_memory, (u64)(i1 + 1));
+        i32_store8(Z_envZ_memory, (u64)(i0 + 1), i1);
+        i0 = p0;
+        i1 = p1;
+        i1 = i32_load8_s(Z_envZ_memory, (u64)(i1 + 2));
+        i32_store8(Z_envZ_memory, (u64)(i0 + 2), i1);
+        i0 = p0;
+        i1 = p1;
+        i1 = i32_load8_s(Z_envZ_memory, (u64)(i1 + 3));
+        i32_store8(Z_envZ_memory, (u64)(i0 + 3), i1);
+        i0 = p0;
+        i1 = 4u;
+        i0 += i1;
+        p0 = i0;
+        i0 = p1;
+        i1 = 4u;
+        i0 += i1;
+        p1 = i0;
+        goto L9;
+      }
+  }
+  L11: 
+    i0 = p0;
+    i1 = l0;
+    i0 = (u32)((s32)i0 < (s32)i1);
+    if (i0) {
+      i0 = p0;
+      i1 = p1;
+      i1 = i32_load8_s(Z_envZ_memory, (u64)(i1));
+      i32_store8(Z_envZ_memory, (u64)(i0), i1);
+      i0 = p0;
+      i1 = 1u;
+      i0 += i1;
+      p0 = i0;
+      i0 = p1;
+      i1 = 1u;
+      i0 += i1;
+      p1 = i0;
+      goto L11;
+    }
+  i0 = l1;
+  Bfunc:;
+  FUNC_EPILOGUE;
+  return i0;
